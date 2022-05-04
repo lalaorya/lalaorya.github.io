@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lalaorya.github.io/categories/</loc>
+    <loc>https://lalaorya.github.io/posts/my-first-post3/</loc>
+    <lastmod>2022-05-04T18:28:09+08:00</lastmod>
   </url><url>
-    <loc>https://lalaorya.github.io/series/</loc>
+    <loc>https://lalaorya.github.io/posts/</loc>
+    <lastmod>2022-05-04T18:28:09+08:00</lastmod>
   </url><url>
     <loc>https://lalaorya.github.io/</loc>
+    <lastmod>2022-05-04T18:28:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -22,6 +25,19 @@
                 hreflang="en"
                 href="https://lalaorya.github.io/"
                 />
+  </url><url>
+    <loc>https://lalaorya.github.io/posts/my-first-post2/</loc>
+    <lastmod>2022-05-04T18:26:28+08:00</lastmod>
+  </url><url>
+    <loc>https://lalaorya.github.io/posts/my-first-post/</loc>
+    <lastmod>2022-05-04T12:33:23+08:00</lastmod>
+  </url><url>
+    <loc>https://lalaorya.github.io/posts/secord-post/</loc>
+    <lastmod>2022-05-04T12:33:23+08:00</lastmod>
+  </url><url>
+    <loc>https://lalaorya.github.io/categories/</loc>
+  </url><url>
+    <loc>https://lalaorya.github.io/series/</loc>
   </url><url>
     <loc>https://lalaorya.github.io/tags/</loc>
   </url>
