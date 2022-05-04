@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/my-first-post/</loc>
-    <lastmod>2022-05-04T12:33:23+08:00</lastmod>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/secord-post/</loc>
+  </url><url>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/categories/</loc>
   </url><url>
     <loc>https://adityatelange.github.io/hugo-PaperMod/</loc>
-    <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -24,9 +24,6 @@
                 />
   </url><url>
     <loc>https://adityatelange.github.io/hugo-PaperMod/posts/</loc>
-    <lastmod>2022-05-04T12:33:23+08:00</lastmod>
-  </url><url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/categories/</loc>
   </url><url>
     <loc>https://adityatelange.github.io/hugo-PaperMod/series/</loc>
   </url><url>
