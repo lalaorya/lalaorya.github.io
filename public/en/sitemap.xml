@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/secord-post/</loc>
+    <loc>https://lalaorya.github.io/posts/secord-post/</loc>
   </url><url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/categories/</loc>
+    <loc>https://lalaorya.github.io/categories/</loc>
   </url><url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/</loc>
+    <loc>https://lalaorya.github.io/posts/</loc>
+  </url><url>
+    <loc>https://lalaorya.github.io/series/</loc>
+  </url><url>
+    <loc>https://lalaorya.github.io/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://adityatelange.github.io/hugo-PaperMod/fr/"
+                href="https://lalaorya.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://adityatelange.github.io/hugo-PaperMod/fa/"
+                href="https://lalaorya.github.io/fa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://adityatelange.github.io/hugo-PaperMod/"
+                href="https://lalaorya.github.io/"
                 />
   </url><url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/</loc>
-  </url><url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/series/</loc>
-  </url><url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/tags/</loc>
+    <loc>https://lalaorya.github.io/tags/</loc>
   </url>
 </urlset>
