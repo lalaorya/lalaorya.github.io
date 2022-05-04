@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lalaorya.github.io/sitemap.xml
