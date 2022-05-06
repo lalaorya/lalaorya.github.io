@@ -1,230 +1,236 @@
-# baseURL: "https://adityatelange.github.io/hugo-PaperMod/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://lalaorya.github.io"
-title: Site
+baseURL: https://www.frytea.com/
+defaultContentLanguage: "zh"
+languageCode: zh-cn
+hasCJKLanguage: true # 设定网站有 CJK 字符（中日韩统一表意文字）
+title: Frytea
 paginate: 5
-theme: paperMod
+theme: "PaperMod"
 
-enableInlineShortcodes: true
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-enableEmoji: true
-pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+# googleAnalytics: UA-136094326-1
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: true
 
-languages:
-    en:
-        languageName: "English"
-        weight: 1
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
-        menu:
-            main:
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Frytea
+    description: "原创，优质、有深度、有思考的文章分享。"
+    keywords: [Frytea, Technology, CS, 宋天伦, 煎茶]
+    author: "Tianlun Song"
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 2, 2006"
+    beian: "粤 ICP 备 19144283 号"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+    disablePWA: false
+    disableBuSuanZi: false
 
-    fr:
-        languageName: ":fr:"
-        languageAltTitle: French
-        weight: 2
-        title: PaperModL2
-        taxonomies:
-          category: FRcategories
-          tag: FRtags
-          series: FRseries
-        profileMode:
-            enabled: true
-            title: PaperMod
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Tags
-                  url: tags
-        menu:
-            main:
-                - name: Archive
-                  url: archives/
-                  weight: 5
-                - name: FRTags
-                  url: frtags
-                  weight: 10
-                - name: FRCategories
-                  url: frcategories
-                  weight: 10
-                - name: FRSeries
-                  url: frseries
-                  weight: 10
-                - name: NullLink
-                  url: "#"
-                - name: NullLink2
-                  url: "#"
-                - name: NullLink3
-                  url: "#"
+    ShowReadingTime: true
+    ShowWordNumber: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowFullTextinRSS: false
+    ShowAllPagesInArchive: true
+    ShowWormhole: true
+    ShowReprinted: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    disableAnchoredHeadings: false
+    disableAPlayer: false
+    comments: true
+    hidemeta: false
+    hideSummary: false
+    showtoc: true
+    tocopen: true
 
-    fa:
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        taxonomies:
-          category: FAcategories
-          tag: FAtags
-          series: FAseries
-        menu:
-            main:
-                - name: FATags
-                  url: fatags
-                  weight: 10
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "favicon.ico"
+#        favicon16x16: "<link / abs url>"
+#        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "apple-touch-icon.png"
+        safari_pinned_tab: "apple-touch-icon.png"
 
+    label:
+        text: "🏡 Frytea"
+        #icon: "🏠"
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: 🛀 lalaorya's site
+        subtitle: "原创，优质、有深度、有思考的内容分享。"
+        #imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: frytea logo
+        buttons:
+            - name: ✒️ 随笔
+              url: posts/
+            - name: ⚙️ 技术
+              url: technology/
+            - name: 🤔 复盘
+              url: tags/retrospective/
+            # - name: 💡 灵感
+            #   url: ideas/
+#            - name: 📷 摄影
+#              url: https://image.frytea.com
+            - name: 🗃 知库
+              url: https://wiki.frytea.com/
+            - name: 📎 资源
+              url: https://res.frytea.com
+            - name: 📜 旧书
+              url: https://blog.frytea.com
+            - name: 🦉 Newsletter
+              url: https://frytea.hedwig.pub
+#            - name: 🛠 工具
+#              url: technology/app-list/
+#            - name: 📁 项目
+#              url: technology/projects/
+
+    # home-info mode
+#    homeInfoParams:
+#        Title: "Hi there \U0001F44B"
+#        Content: Welcome to my blog
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/songtianlun"
+        - name: telegram
+          url: "https://telegram.me/songtianlun"
+        - name: email
+          url: "mailto:songtianlun@frytea.com"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/songtianlun/"
+        - name: rss
+          url: "/index.xml"
+
+    analytics:
+        # google:
+        #     SiteVerificationTag: "XYZabc"
+        # bing:
+        #     SiteVerificationTag: "XYZabc"
+        yandex:
+            SiteVerificationTag: "73b1a797f62c0e98"
+        baidu:
+            SiteVerificationTag: "code-gnOrbP1RyC"
+    baiduUnionVerify: "4c552c344295cb984c46ebe74962b067"
+    googleAdSense: ca-pub-7296634171837358
+    umamiCodeID: 3d947a98-2774-46b0-805f-fe2e4877a1d7
+
+    cover:
+        hidden: false # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+        responsiveImages: false
+        linkFullImages: false
+
+    editPost:
+        URL: "https://github.com/songtianlun/songtianlun.github.io/edit/main/content"
+        Text: "PR" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+    valine:
+        enable: true
+        appId: mhm2sAPpC3cW2VJ15fpGGDPb-gzGzoHsz
+        appKey: nx1gknfuCi4dsFHwG7cAbqUL
+        notify: false
+        verify: false
+        avatar: Tianlun Song
+        placeholder: 说点什么吧...
+        visitor: true
+    algolia:
+      vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+      params: ["categories", "tags"]
+      appId: "SY75R7MWL1"
+      indexName: "article"
+      searchOnlyKey: "b41779cc74b4658395f902d11d3ade78"  # Search-Only API Key
+
+menu:
+    main:
+        - identifier: categories
+          name: 🗂
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: 🏷️
+          url: /tags/
+          weight: 20
+#        - identifier: archives
+#          name: 🗃 归档
+#          url: /archives/
+#          weight: 30
+        - identifier: search
+          name: 🔍
+          url: /search/
+          weight: 40
+        - identifier: posts
+          name: ✒️
+          url: /posts/
+          weight: 41
+        - identifier: technology
+          name: ⚙️
+          url: /technology/
+          weight: 42
+        - identifier: tools
+          name: 🛠
+          url: /technology/app-list/
+          weight: 43
+        - identifier: projects
+          name: 📁
+          url: /technology/projects/
+          weight: 44
+        - identifier: travelling
+          name: 🚇
+          url: https://travellings.link
+          weight: 50
+        # - identifier: example
+        #   name: example.org
+        #   url: https://example.org
+        #   weight: 30
 outputs:
     home:
         - HTML
         - RSS
-        - JSON
+        - JSON # is necessary
 
-params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
-    # author: ["Me", "You"] # multiple authors
-
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
-    ShowToc: true
-    # comments: false
-    images: ["papermod-cover.png"]
-
-    profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
-
-    homeInfoParams:
-        Title: "PaperMod"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
-
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
-    socialIcons:
-        - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
-        - name: RsS
-          url: "index.xml"
-
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
-
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-
-    # assets:
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
-
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
-
-markup:
-    goldmark:
-        renderer:
-            unsafe: true
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
 #     highlight:
 #         # anchorLineNos: true
 #         codeFences: true
 #         guessSyntax: true
 #         lineNos: true
-#         # noClasses: false
 #         style: monokai
 
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
+#### 允许 html 渲染 start ####
+blackfriday:
+extensionsmask: ["noIntraEmphasis"]
+fractions: false
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
-
-services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+#### 允许 html 渲染 end ####
