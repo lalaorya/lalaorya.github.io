@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 
-<head>
-	<meta name="generator" content="Hugo 0.97.2" /><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -10,7 +9,7 @@
 
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="Theme PaperMod">
-<link rel="canonical" href="https://lalaorya.github.io/fa/">
+<link rel="canonical" href="https://lalaorya.github.io/fa/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css" integrity="sha256-7I2jZsovtkdTfMt6j2&#43;ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://lalaorya.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://lalaorya.github.io/favicon-16x16.png">
@@ -19,11 +18,23 @@
 <link rel="mask-icon" href="https://lalaorya.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.97.2" />
 <link rel="alternate" type="application/rss+xml" href="https://lalaorya.github.io/fa/index.xml">
 <link rel="alternate" type="application/json" href="https://lalaorya.github.io/fa/index.json">
-<link rel="alternate" hreflang="en" href="https://lalaorya.github.io/">
-<link rel="alternate" hreflang="fr" href="https://lalaorya.github.io/fr/">
-<link rel="alternate" hreflang="fa" href="https://lalaorya.github.io/fa/">
+<link rel="alternate" hreflang="en" href="https://lalaorya.github.io/" />
+<link rel="alternate" hreflang="fr" href="https://lalaorya.github.io/fr/" />
+<link rel="alternate" hreflang="fa" href="https://lalaorya.github.io/fa/" />
+
+<link rel="manifest" href="/manifest.json">
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
 <noscript>
     <style>
         #theme-toggle,
@@ -60,7 +71,17 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="PaperMod RTL" />
+</noscript>
+
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><meta property="og:title" content="PaperMod RTL" />
 <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://lalaorya.github.io/fa/" /><meta property="og:image" content="https://lalaorya.github.io/papermod-cover.png"/><meta property="og:site_name" content="PaperMod RTL" />
@@ -86,7 +107,7 @@
 </script>
 </head>
 
-<body class="list" id="top">
+<body class="list list " id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -149,9 +170,9 @@
     <header class="entry-header">
         <h1>Hi there 👋</h1>
     </header>
-    <div class="entry-content">
+    <section class="entry-content">
         <p>Welcome to RTL layout</p>
-    </div>
+    </section>
     <footer class="entry-footer">
         <div class="social-icons">
     <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreferrer me" title="Github">
@@ -185,12 +206,16 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://lalaorya.github.io/fa/">PaperMod RTL</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+    <span>Copyright &copy; 2022 • <a href="https://lalaorya.github.io/fa/">PaperMod RTL</a></span>
+    
+    <div><span>
+        
+        <a href="/about/"></a>
+        • <a href="/disclaimer/"></a>
+         
+         • <a href="/sitemap.xml" target="view_window"></a>
+         • PV <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>
+    </span></div>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
@@ -200,11 +225,9 @@
 
 <script>
     let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -251,6 +274,18 @@
         }
     })
 
+</script>
+
+
+<meta name=”apple-mobile-web-app-capable” content=”yes”>
+<script>
+  
+  if ('serviceWorker' in navigator) {
+    
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
+  }
 </script>
 </body>
 

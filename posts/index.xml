@@ -1,50 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Site</title>
-    <link>https://lalaorya.github.io/posts/</link>
-    <description>Recent content in Posts on Site</description>
+    <title>Posts on Lalaorya</title>
+    <link>https://www.frytea.com/posts/</link>
+    <description>Recent content in Posts on Lalaorya</description>
     <image>
-      <url>https://lalaorya.github.io/papermod-cover.png</url>
-      <link>https://lalaorya.github.io/papermod-cover.png</link>
+      <url>https://www.frytea.com/105</url>
+      <link>https://www.frytea.com/105</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 May 2022 18:28:09 +0800</lastBuildDate><atom:link href="https://lalaorya.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post3</title>
-      <link>https://lalaorya.github.io/posts/my-first-post3/</link>
-      <pubDate>Wed, 04 May 2022 18:28:09 +0800</pubDate>
-      
-      <guid>https://lalaorya.github.io/posts/my-first-post3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post2</title>
-      <link>https://lalaorya.github.io/posts/my-first-post2/</link>
-      <pubDate>Wed, 04 May 2022 18:26:28 +0800</pubDate>
-      
-      <guid>https://lalaorya.github.io/posts/my-first-post2/</guid>
-      <description></description>
-    </item>
-    
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 04 May 2022 12:33:23 +0800</lastBuildDate><atom:link href="https://www.frytea.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://lalaorya.github.io/posts/my-first-post/</link>
+      <link>https://www.frytea.com/posts/my-first-post/</link>
       <pubDate>Wed, 04 May 2022 12:33:23 +0800</pubDate>
       
-      <guid>https://lalaorya.github.io/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://lalaorya.github.io/posts/secord-post/</link>
-      <pubDate>Wed, 04 May 2022 12:33:23 +0800</pubDate>
-      
-      <guid>https://lalaorya.github.io/posts/secord-post/</guid>
-      <description>git
-一级标题 </description>
+      <guid>https://www.frytea.com/posts/my-first-post/</guid>
+      <description>引言 如果不了解阻塞和非阻塞，同步和异步，请先阅读此文章 五种网络IO模型详解 NIO是一种同步非阻塞的网络IO模型，传统的BIO一般通过单独创建</description>
     </item>
     
   </channel>
