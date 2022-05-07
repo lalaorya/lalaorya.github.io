@@ -1,10 +1,14 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
+<!-- 添加日期图标 -->
+<span class="fa-calendar">&nbsp;</span>
+{{- $scratch.Add "meta" (slice (.Date.Format (default "January 2,2006" .Site.Params.DateFormat))) }}
 {{- end }}
 
+
 {{- if (.Param "ShowReadingTime") -}}
+<!-- <span class="fa-calendar">&nbsp;</span> -->
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
 
@@ -12,10 +16,12 @@
 {{- $scratch.Add "meta" (slice (i18n "word_number" .WordCount | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
 
+
 {{- with (partial "author.html" .) }}
 {{- $scratch.Add "meta" (slice .) }}
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
+<!-- {{- delimit . "&nbsp;" -}} -->
 {{- delimit . "&nbsp;·&nbsp;" -}}
 {{- end -}}

@@ -16,7 +16,8 @@
     <div class="post-meta">
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
-      {{- partial "edit_post.html" . -}}
+      <!-- 快速跳转edit -->
+      <!-- {{- partial "edit_post.html" . -}} -->
       {{- if (not .Site.Params.disableBuSuanZi) }}
       &nbsp;| &nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;Hits
       {{- end}}

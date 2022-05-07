@@ -2,9 +2,9 @@ baseURL: https://www.frytea.com/
 defaultContentLanguage: "zh"
 languageCode: zh-cn
 hasCJKLanguage: true # 设定网站有 CJK 字符（中日韩统一表意文字）
-title: Frytea
+title: Lalaorya
 paginate: 5
-theme: "PaperMod"
+theme: "paperMod"
 
 # googleAnalytics: UA-136094326-1
 
@@ -14,23 +14,29 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Frytea
+    title: Lalaorya
     description: "原创，优质、有深度、有思考的文章分享。"
     keywords: [Frytea, Technology, CS, 宋天伦, 煎茶]
-    author: "Tianlun Song"
+    author: "lalaorya"
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
+    # images: ["<link or path of image for opengraph, twitter-cards>"]
+    images: "images/tn.png"
+    # 日期格式
+    # DateFormat: "January 2, 2006"
+    # DateFormat: "Jan 1,2006"
+    DateFormat: "2006-01"
     beian: "粤 ICP 备 19144283 号"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
     disablePWA: false
     disableBuSuanZi: false
 
+    # // 相关配置
     ShowReadingTime: true
     ShowWordNumber: true
     ShowShareButtons: true
     ShowPostNavLinks: true
+    # 是否展示主页面包屑
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: false
     ShowFullTextinRSS: false
@@ -57,7 +63,7 @@ params:
         safari_pinned_tab: "apple-touch-icon.png"
 
     label:
-        text: "🏡 Frytea"
+        text: "🏡 Lalaorya"
         #icon: "🏠"
         iconHeight: 35
 
@@ -66,48 +72,52 @@ params:
         enabled: true # needs to be explicitly set
         title: 🛀 lalaorya's site
         subtitle: "原创，优质、有深度、有思考的内容分享。"
-        #imageUrl: "<img location>"
+        # logo
+        imageUrl: "images/tn.png"
+        # logo大小
         imageWidth: 120
         imageHeight: 120
+        # logo标题
         imageTitle: frytea logo
         buttons:
-            - name: ✒️ 随笔
+            - name: ✒️ Blog
               url: posts/
-            - name: ⚙️ 技术
-              url: technology/
-            - name: 🤔 复盘
-              url: tags/retrospective/
+            # - name: ⚙️ 技术
+            #   url: technology/
+            # - name: 🤔 复盘
+            #   url: tags/retrospective/
             # - name: 💡 灵感
             #   url: ideas/
 #            - name: 📷 摄影
 #              url: https://image.frytea.com
-            - name: 🗃 知库
+            - name: 🗃 Wiki
               url: https://wiki.frytea.com/
-            - name: 📎 资源
+            - name: 📎 Res
               url: https://res.frytea.com
-            - name: 📜 旧书
-              url: https://blog.frytea.com
-            - name: 🦉 Newsletter
-              url: https://frytea.hedwig.pub
+            # - name: 📜 旧书
+            #   url: https://blog.frytea.com
+            # - name: 🦉 Newsletter
+            #   url: https://frytea.hedwig.pub
 #            - name: 🛠 工具
 #              url: technology/app-list/
 #            - name: 📁 项目
 #              url: technology/projects/
 
-    # home-info mode
-#    homeInfoParams:
-#        Title: "Hi there \U0001F44B"
-#        Content: Welcome to my blog
+
+# home-info mode:
+#     homeInfoParams:
+#         Title: "Hi there \U0001F44B"
+#         Content: Welcome to my blog
 
     socialIcons:
         - name: github
-          url: "https://github.com/songtianlun"
-        - name: telegram
-          url: "https://telegram.me/songtianlun"
+          url: "https://github.com/lalaorya"
+        # - name: telegram
+        #   url: "https://telegram.me/songtianlun"
         - name: email
-          url: "mailto:songtianlun@frytea.com"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/songtianlun/"
+          url: "sangmu.hhj@gmail.com"
+        # - name: linkedin
+        #   url: "https://www.linkedin.com/in/songtianlun/"
         - name: rss
           url: "/index.xml"
 
@@ -131,10 +141,11 @@ params:
         responsiveImages: false
         linkFullImages: false
 
-    editPost:
-        URL: "https://github.com/songtianlun/songtianlun.github.io/edit/main/content"
-        Text: "PR" # edit text
-        appendFilePath: true # to append file path to Edit link
+    # 编辑文章跳转github仓库
+    # editPost:
+    #     URL: "https://github.com/songtianlun/songtianlun.github.io/edit/main/content"
+    #     Text: "PR" # edit text
+    #     appendFilePath: true # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
@@ -146,6 +157,7 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
+    # 评论系统
     valine:
         enable: true
         appId: mhm2sAPpC3cW2VJ15fpGGDPb-gzGzoHsz
@@ -164,38 +176,38 @@ params:
 
 menu:
     main:
-        - identifier: categories
-          name: 🗂
-          url: /categories/
-          weight: 10
+        # - identifier: categories
+        #   name: 🗂
+        #   url: /categories/
+        #   weight: 10
         - identifier: tags
           name: 🏷️
           url: /tags/
           weight: 20
-#        - identifier: archives
-#          name: 🗃 归档
-#          url: /archives/
-#          weight: 30
+        - identifier: archives
+          name: 🗃
+          url: /archives/
+          weight: 30
         - identifier: search
           name: 🔍
           url: /search/
           weight: 40
-        - identifier: posts
+        - identifier: post
           name: ✒️
-          url: /posts/
+          url: /post/
           weight: 41
-        - identifier: technology
-          name: ⚙️
-          url: /technology/
-          weight: 42
-        - identifier: tools
-          name: 🛠
-          url: /technology/app-list/
-          weight: 43
-        - identifier: projects
-          name: 📁
-          url: /technology/projects/
-          weight: 44
+        # - identifier: technology
+        #   name: ⚙️
+        #   url: /technology/
+        #   weight: 42
+        # - identifier: tools
+        #   name: 🛠
+        #   url: /technology/app-list/
+        #   weight: 43
+        # - identifier: projects
+        #   name: 📁
+        #   url: /technology/projects/
+        #   weight: 44
         - identifier: travelling
           name: 🚇
           url: https://travellings.link

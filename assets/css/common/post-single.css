@@ -3,6 +3,11 @@
     margin: 24px auto var(--content-gap) auto;
 }
 
+.post-header .fa-calendar::before{
+    content: '\f073';
+    font-family: FontAwesome;
+}
+
 .post-title {
     margin-bottom: 2px;
     font-size: 32px;
@@ -27,6 +32,7 @@
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,Avenir,nimbus sans l,Roboto,Noto,segoe ui,Arial,Helvetica,helvetica neue,sans-serif;
 }
 
 .post-meta .i18n_list li {
@@ -96,7 +102,13 @@
     margin: auto 0;
     border-radius: 0;
     box-shadow: 0 -1px 0 var(--primary) inset;
+ 
 }
+
+pre, code { 
+    font-family: Hack, monospace;
+}
+
 
 .post-content del {
     text-decoration: none;

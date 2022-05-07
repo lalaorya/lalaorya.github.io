@@ -5,6 +5,7 @@
     margin: auto;
     padding: var(--gap);
     font-family: Georgia, 'STXihei' ,-apple-system , 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+    /* font-family: -apple-system,BlinkMacSystemFont,avenir next,Avenir,nimbus sans l,Roboto,Noto,segoe ui,Arial,Helvetica,helvetica neue,sans-serif; */
     letter-spacing: 1px;
 }
 

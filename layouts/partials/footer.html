@@ -8,22 +8,23 @@
     {{- if .Site.Params.Beian }}
     <span> • <a href="http://beian.miit.gov.cn/" target="view_window">{{ .Site.Params.Beian }}</a></span>
     {{- end}}
-    <!-- <span>
+    <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
-    </span> -->
+    </span>
     <div><span>
         <!-- <a target="view_window">版权声明</a> -->
-        <a href="/about/">{{ i18n "page_about" }}</a>
-        • <a href="/disclaimer/">{{ i18n "page_disclaimer" }}</a>
+        <!-- <a href="/about/">{{ i18n "page_about" }}</a> -->
+        <!-- • <a href="/disclaimer/">{{ i18n "page_disclaimer" }}</a> -->
          <!-- • <a>隐私条款</a> -->
-         • <a href="/sitemap.xml" target="view_window">{{ i18n "page_site_map" }}</a>
-        {{- if .Site.Params.ShowWormhole }}
+         <!-- • <a href="/sitemap.xml" target="view_window">{{ i18n "page_site_map" }}</a> -->
+        <!-- {{- if .Site.Params.ShowWormhole }}
          • <a href="https://www.foreverblog.cn/go.html" target="view_window">{{ i18n "wormhole" }}</a>
-        {{- end}}
+        {{- end}} -->
         {{- if (not .Site.Params.disableBuSuanZi) }}
-         • PV <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>
+           UV <span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>
+         & PV <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>
         {{- end}}
     </span></div>
 </footer>

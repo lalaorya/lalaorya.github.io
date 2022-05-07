@@ -62,7 +62,7 @@
 
 .entry-content {
     margin: 8px 0;
-    color: var(--secondary);
+    color: var(--content);
     font-size: 14px;
     line-height: 1.6;
     overflow: hidden;
@@ -74,6 +74,13 @@
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
+    /* font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif; */
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,Avenir,nimbus sans l,Roboto,Noto,segoe ui,Arial,Helvetica,helvetica neue,sans-serif;
+}
+
+.entry-footer .fa-calendar::before{
+    content: '\f073';
+    font-family: FontAwesome;
 }
 
 .entry-link {
