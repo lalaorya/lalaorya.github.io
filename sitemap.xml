@@ -2,41 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.frytea.com/</loc>
+    <loc>https://lalaorya.github.io/</loc>
+    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lalaorya.github.io/tech/</loc>
+    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lalaorya.github.io/essays/</loc>
+    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lalaorya.github.io/essays/my-first-post-%E5%89%AF%E6%9C%AC/</loc>
     <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/posts/my-first-post/</loc>
+    <loc>https://lalaorya.github.io/essays/my-first-post/</loc>
     <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/posts/</loc>
+    <loc>https://lalaorya.github.io/tech/my-first-post-%E5%89%AF%E6%9C%AC/</loc>
     <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
+    <loc>https://lalaorya.github.io/tech/my-first-post/</loc>
     <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/</loc>
+    <loc>https://lalaorya.github.io/tags/</loc>
     <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/%E6%A0%87%E7%AD%BE%E4%B8%80/</loc>
+    <loc>https://lalaorya.github.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/</loc>
     <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/archives/</loc>
+    <loc>https://lalaorya.github.io/tags/%E6%A0%87%E7%AD%BE%E4%B8%80/</loc>
+    <lastmod>2022-05-04T12:33:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/categories/</loc>
+    <loc>https://lalaorya.github.io/archives/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lalaorya.github.io/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

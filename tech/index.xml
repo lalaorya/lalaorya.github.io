@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>标签二 on Lalaorya</title>
-    <link>https://lalaorya.github.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/</link>
-    <description>Recent content in 标签二 on Lalaorya</description>
+    <title>技术文章 on Lalaorya</title>
+    <link>https://lalaorya.github.io/tech/</link>
+    <description>Recent content in 技术文章 on Lalaorya</description>
     <image>
       <url>https://lalaorya.github.io/105</url>
       <link>https://lalaorya.github.io/105</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 May 2022 12:33:23 +0800</lastBuildDate><atom:link href="https://lalaorya.github.io/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://lalaorya.github.io/essays/my-first-post-%E5%89%AF%E6%9C%AC/</link>
-      <pubDate>Wed, 04 May 2022 12:33:23 +0800</pubDate>
-      
-      <guid>https://lalaorya.github.io/essays/my-first-post-%E5%89%AF%E6%9C%AC/</guid>
-      <description>引言 如果不了解阻塞和非阻塞，同步和异步，请先阅读此文章 五种网络IO模型详解 NIO是一种同步非阻塞的网络IO模型，传统的BIO一般通过单独创建</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://lalaorya.github.io/essays/my-first-post/</link>
-      <pubDate>Wed, 04 May 2022 12:33:23 +0800</pubDate>
-      
-      <guid>https://lalaorya.github.io/essays/my-first-post/</guid>
-      <description>引言 如果不了解阻塞和非阻塞，同步和异步，请先阅读此文章 五种网络IO模型详解 NIO是一种同步非阻塞的网络IO模型，传统的BIO一般通过单独创建</description>
-    </item>
-    
+    <lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lalaorya.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://lalaorya.github.io/tech/my-first-post-%E5%89%AF%E6%9C%AC/</link>
